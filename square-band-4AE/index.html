@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+* {
+  font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+
+<!--boot js--><script id="jsbin-javascript" defer>console.clear()
+// rappresentazione dei numeri esadecimali, ottali e binari
+
+// esadecimale 0123456789ABCDEF
+// per indicarlo si usa 0X
+var hex_num = 0xf;
+console.log(hex_num);
+console.log(typeof(hex_num));
+
+// moltiplico il numero per 5
+console.log(hex_num * 5);
+
+// ottale 1234567
+// per indicarlo si usa 0o
+var octal_num = 0o26;
+console.log(octal_num);
+console.log(typeof(octal_num));
+
+// binario 01
+// per rappresentarlo si usa 0B
+var bin_num = 0b101110;
+console.log(bin_num);
+console.log(typeof(bin_num));
+console.log(hex_num * octal_num * bin_num);
+console.log(typeof(hex_num * octal_num * bin_num));
+</script>
+</body>
+</html>
