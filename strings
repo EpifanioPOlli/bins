@@ -1,0 +1,20 @@
+console.clear()
+var verso1 = "Hai quanto a dir qual'era è cosa dura\n";
+var verso2 = "esta selva selvaggia e aspra e forte\n";
+var verso3 ="che nel pensier rinnova la paura!\n"
+//usa il medoto concat;
+var strofa = verso1.concat('<p>',verso2,verso3,'<p>');
+//usa l'operatore +
+var strofa1 = verso1 + verso2 + verso3
+var risultato = 1 + "10"
+var risultato1  = "10" + 1
+//trasformo una stringa in un numero con il cast
+var risultato2  = (+"10") + 1
+//trasforma una stringa in un numero con la funzione parseint
+var risultato3  = parseInt("10") + 2
+console.log(strofa)
+console.log(strofa1)
+console.log(risultato)
+console.log(risultato1)
+console.log(risultato2)
+console.log(risultato3)
